@@ -45,3 +45,5 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'rename'
+
+gem 'newrelic_rpm'
