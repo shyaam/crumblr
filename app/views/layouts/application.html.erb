@@ -9,25 +9,7 @@
 </head>
 <body>
 	<div class="container">
-		<div class="page-header">
-			<ul class="nav nav-pills pull-right">
-				<li>
-					<%= link_to "Home", root_url %>
-				</li>
-				<li>
-					<%= link_to "Manage Posts", posts_url %>
-				</li>
-				<li>
-					<%= link_to "About", about_url %>
-				</li>
-			</ul>
-			<h1>
-				<%= link_to "CRUMBLR", "/" %>
-				<small>
-					// home baked goodness
-				</small>
-			</h1>	
-		</div>
+    <%= yield "/header" %>
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3">
 				<%= yield %>
